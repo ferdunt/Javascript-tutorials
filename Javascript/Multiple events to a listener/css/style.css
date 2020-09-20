@@ -1,0 +1,32 @@
+div[class^="btnAction"],
+div[class^="btnResult"] {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 2px;
+  width: 100px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+div[class^="btnAction"] {
+  color: #bb3d45;
+  background-color: #ffe193;
+  border-bottom: 3px solid #a58e54;
+  transition: all 0.3s;
+}
+
+div[class^="btnAction"]:hover {
+  background-color: rgba(255, 232, 173, 1);
+  color: #e06a71;
+}
+
+div[class^="btnAction"]:active {
+  transform: translateY(5px);
+}
+
+div[class^="btnResult"] {
+  color: #fff;
+  background-color: #488e34;
+  background-image: url(../img/result.png);
+}

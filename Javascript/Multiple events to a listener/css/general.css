@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f8f160;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #eb272b;
+  padding: 1rem 0;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 10px #1f1f1f;
+  background-image: url(../img/texture.png);
+  box-shadow: 0px 12px 12px -4px rgba(0, 0, 0, 0.48);
+}
+
+/* CARD NAME */
+
+.nameCard h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nameCard h2::before,
+.nameCard h2::after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.nameCard h2::after {
+  margin: 0 0 0 20px;
+}
+
+/* 🎨 CARD 🎨 */
+.card {
+  width: 30%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 3rem 1rem 1rem;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  transition: all 1s;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  margin: 0.1rem 0.1rem;
+}
+
+.point {
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.affected {
+  background-color: #eb272b;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #ffa998;
+  float: right;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.emoji {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  border-radius: 3px;
+  padding: 0.5rem;
+}
